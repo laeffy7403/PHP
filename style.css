@@ -1,0 +1,56 @@
+body, table, input, textarea, select 
+{
+    font-family: Calibri; 
+    font-size: 1.0em;  
+    
+}
+
+
+/******************************************************************************
+Used by:
+--------
+- kinder-math-ques.php
+- kinder-math-result.php
+******************************************************************************/
+.question
+{
+    background-color: #D5EDF8; /* A little blue */
+}
+
+.correct
+{
+    background-color: #E6EFC2; /* A little green */
+}
+
+.wrong
+{
+    background-color: #FBE3E4; /* A little pink */
+}
+
+/******************************************************************************
+Used by:
+--------
+- simple-calculator.php
+- register-student.php
+******************************************************************************/
+.error, .info
+{
+    padding: 5px;
+    margin: 5px;
+    font-size: 0.9em;
+    list-style-position: inside;
+}
+
+.error
+{
+    border: 2px solid #FBC2C4;
+    background-color: #FBE3E4;
+    color: #8A1F11;
+}
+
+.info
+{
+    border: 2px solid #92CAE4;
+    background-color: #D5EDF8;
+    color: #205791;
+}
